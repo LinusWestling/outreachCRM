@@ -317,7 +317,7 @@ Set `ConnectionStrings:SupabaseRead` (read-only role) and `ConnectionStrings:Sup
 ├── .codex-*.mjs              # stable helper commands used by agents
 ├── docker-compose.yml        # Postgres 17 on localhost:5433
 ├── OutreachDashboard.slnx    # .NET solution
-├── docs/IMPLEMENTATION_PLAN.md
+├── docs/IMPLEMENTATION_PLAN.md # legacy: the original scoping plan (origin story)
 ├── src/
 │   ├── Outreach.Domain/          # entities: Creator, CreatorAccount, ContactLog, MessageTemplate, ImportBatch/Row
 │   ├── Outreach.Application/     # DTOs, service interfaces, CSV normalization
