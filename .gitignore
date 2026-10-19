@@ -1,0 +1,36 @@
+# --- Local outreach data (never commit) ---
+# Per-run agent payloads/results contain real prospect names, handles, emails and drafts.
+.codex-*.json
+# Creator spreadsheets imported on startup.
+*.csv
+# Legacy single-brand DM helper (personal copy).
+creator-dm/
+# Project-specific integration notes.
+docs/supabase-conversion-tracking-plan.md
+
+# --- Secrets / local tool config ---
+.env
+.env.*
+appsettings.*.local.json
+.mcp.json
+.claude/settings.local.json
+**/.claude/settings.local.json
+
+# --- .NET ---
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+
+# --- Frontend ---
+node_modules/
+dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Outreach.Api/Outreach.Api.csproj" />
+    <Project Path="src/Outreach.Application/Outreach.Application.csproj" />
+    <Project Path="src/Outreach.Domain/Outreach.Domain.csproj" />
+    <Project Path="src/Outreach.Infrastructure/Outreach.Infrastructure.csproj" />
+  </Folder>
+</Solution>

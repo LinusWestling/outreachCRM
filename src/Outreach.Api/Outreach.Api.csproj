@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8f0e2f82-1ca5-4a8d-9e1c-6f7d0e9a1b23</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Outreach.Application\Outreach.Application.csproj" />
+    <ProjectReference Include="..\Outreach.Infrastructure\Outreach.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
