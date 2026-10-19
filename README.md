@@ -351,3 +351,7 @@ This tool deliberately keeps a human in the loop: agents prepare drafts, a perso
 ## Contributing
 
 Issues and pull requests are welcome. Please never commit real creator data. Keep CSVs, `.codex-*.json` payloads and secrets out of your commits (the `.gitignore` already does this).
+
+## License
+
+[MIT](LICENSE) © Linus Westling
